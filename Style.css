@@ -11,23 +11,21 @@
     --cor-fundo-numero-claro: #f4f8fb;
     --cor-fundo-operador-claro: #c0e8fb;
     --cor-fundo-acoes-claro: #d1e4fb;
-  
     --cor-fundo-site: #74ebd5;
   }
   
-  /* Reset e estilos básicos */
   * {
     margin: 0;
     padding: 0;
     border: 0;
     background: none;
     box-sizing: border-box;
-  }
+}
   
   html {
     font-size: 10px;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
-  }
+}
   
   body {
     display: flex;
@@ -37,7 +35,6 @@
     background-color: var(--cor-fundo-site);
   }
   
-  /* calculadora */
   .calculadora {
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.3);
     border-radius: 2em;
@@ -45,7 +42,7 @@
     background-color: var(--cor-fundo-calculadora-escuro);
   }
   
-  .visor {
+.visor {
     background-color: var(--cor-fundo-visor-escuro);
     color: var(--cor-numero-escuro);
     width: 34.5rem;
@@ -67,9 +64,9 @@
       'quatro cinco seis recuperar'
       'um dois tres limpar'
       'zero decimal zero-duplo igual';
-  }
+}
   
-  .teclas > button {
+.teclas > button {
     border-radius: 50%;
     font-size: 2rem;
     cursor: pointer;
@@ -77,23 +74,23 @@
   
   [data-tecla='somar'] {
     grid-area: somar;
-  }
+}
   
   [data-tecla='subtrair'] {
     grid-area: subtrair;
-  }
+}
   
   [data-tecla='multiplicar'] {
     grid-area: multiplicar;
-  }
+}
   
   [data-tecla='dividir'] {
     grid-area: dividir;
-  }
+}
   
   .zero {
     grid-area: zero;
-  }
+}
   
   .um {
     grid-area: um;
